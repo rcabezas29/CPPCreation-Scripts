@@ -2,7 +2,7 @@ NAME =
 
 CFLAGS = -Wall -Werror -Wextra
 
-SRCS = main.cpp Prueba.cpp Prueba.cpp Prueba.cpp Prueba.cpp
+SRCS = main.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
