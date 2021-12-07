@@ -1,4 +1,4 @@
-NAME = pruebapruebapruebaprueba
+NAME = 
 
 CFLAGS = -Wall -Werror -Wextra
 
