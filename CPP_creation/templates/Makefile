@@ -1,6 +1,8 @@
 NAME = 
 
-CFLAGS = -Wall -Werror -Wextra
+CXX = clang++
+
+CXXFLAGS = -Wall -Werror -Wextra
 
 SRCS = main.cpp
 
@@ -9,7 +11,7 @@ OBJS = $(SRCS:.cpp=.o)
 all: $(NAME)
 
 $(NAME): $(OBJS)
-	clang++ $(CFLAGS) $(OBJS) -o $(NAME)
+	$(CXX) $(CFLAGS) $(OBJS) -o $(NAME)
 
 clean:
 	rm -f $(OBJS)
